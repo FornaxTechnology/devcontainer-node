@@ -35,6 +35,13 @@
                 "Ho-Wan.vscode-trello-viewer",
                 "hediet.vscode-drawio",
 
+                // Node dependency management:
+                "idered.npm",
+                "herrmannplatz.npm-dependency-links",
+                "christian-kohler.npm-intellisense",
+                "howardzuo.vscode-npm-dependency",
+                "gamunu.vscode-yarn",
+
                 // General aesthetics:
                 "usernamehw.errorlens",
                 "vscode-icons-team.vscode-icons",
@@ -60,6 +67,22 @@
                 // General testing:
                 "hbenl.vscode-test-explorer",
                 "ms-vscode.test-adapter-converter",
+
+                // JS/TS Diagnostic:
+                "wix.vscode-import-cost",
+                "WallabyJs.wallaby-extension-pack",
+
+                // JS/TS Syntax:
+                "unifiedjs.vscode-mdx",
+
+                // JS/TS Formatting:
+                "dbaeumer.vscode-eslint",
+
+                // Frontend testing:
+                "vitest.explorer",
+
+                // Vue:
+                "Vue.volar",
 
                 // General backup:
                 "xyz.local-history"
@@ -94,6 +117,94 @@
                 "testExplorer.gutterDecoration": true,
                 "testExplorer.hideEmptyLog": true,
                 "testExplorer.mergeSuites": true,
+
+                "iridium.npm.packageManager": "npm",
+                "iridium.npm.showResultDescription": true,
+
+                "npm.updateStrategy": "SEMVER",
+                
+                "eslint.enable": true,
+                "eslint.debug": true,
+                "eslint.nodeEnv": "development",
+                "eslint.format.enable": false,
+                "eslint.options": {
+                    "extensions": [
+                        ".js",
+                        ".jsx",
+                        ".md",
+                        ".mdx",
+                        ".ts",
+                        ".tsx"
+                    ]
+                },
+
+                "[json]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.formatOnSave": true
+                },
+
+                "[jsonc]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.formatOnSave": true
+                },
+
+                "[yaml]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.formatOnSave": true
+                },
+
+                "[dockercompose]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.formatOnSave": true
+                },
+
+                "[javascript]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.codeActionsOnSave": {
+                        "source.formatDocument": "explicit",
+                        "source.fixAll.eslint": "explicit"
+                    }
+                },
+
+                "[typescript]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.codeActionsOnSave": {
+                        "source.formatDocument": "explicit",
+                        "source.fixAll.eslint": "explicit"
+                    }
+                },
+
+                "[html]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.codeActionsOnSave": {
+                        "source.formatDocument": "explicit",
+                        "source.fixAll.eslint": "explicit"
+                    }
+                },
+
+                "[css]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.codeActionsOnSave": {
+                        "source.formatDocument": "explicit",
+                        "source.fixAll.eslint": "explicit"
+                    }
+                },
+
+                "[scss]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.codeActionsOnSave": {
+                        "source.formatDocument": "explicit",
+                        "source.fixAll.eslint": "explicit"
+                    }
+                },
+
+                "[vue]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode",
+                    "editor.codeActionsOnSave": {
+                        "source.formatDocument": "explicit",
+                        "source.fixAll.eslint": "explicit"
+                    }
+                },
 
                 "editor.formatOnPaste": false,
                 "editor.formatOnType": false,
